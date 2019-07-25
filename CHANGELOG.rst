@@ -1,3 +1,9 @@
+1.7.1
+=====
+
+* Fixed regression which caused ``TypeErrors`` when trying to set annotations due to PR #87
+
+
 1.7.0
 =====
 

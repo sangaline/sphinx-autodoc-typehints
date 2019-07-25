@@ -206,7 +206,7 @@ def get_all_type_hints(obj, name):
 
     try:
         obj.__annotations__ = rv
-    except AttributeError:
+    except (AttributeError, TypeError):
         return rv
 
     try:
